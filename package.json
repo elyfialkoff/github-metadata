@@ -2,7 +2,7 @@
   "name": "github-metadata",
   "version": "1.0.0",
   "description": "responsible for providing github repository details",
-  "main": "index.ts",
+  "main": "server.ts",
   "scripts": {
     "test": "test"
   },
