@@ -1,0 +1,22 @@
+{
+  "name": "github-metadata",
+  "version": "1.0.0",
+  "description": "responsible for providing github repository details",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elyfialkoff/github-metadata.git"
+  },
+  "author": "Ely Fialkoff",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elyfialkoff/github-metadata/issues"
+  },
+  "homepage": "https://github.com/elyfialkoff/github-metadata#readme",
+  "dependencies": {
+    "tsc": "^2.0.3"
+  }
+}
