@@ -2,7 +2,7 @@
   "name": "github-metadata",
   "version": "1.0.0",
   "description": "responsible for providing github repository details",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "test"
   },
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/elyfialkoff/github-metadata#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "tsc": "^2.0.3"
   }
 }
