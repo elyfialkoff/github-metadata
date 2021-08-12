@@ -8,9 +8,9 @@ const app = express();
 const POST = process.env.PORT;
 
 app.get('/', async (req, res) => {
-  const metadata = await RepoMetadata.getRepoMetadata('elyfialkoff/github-metadata');
-  console.log(metadata)
-  res.send(metadata)
+  const eventUrl = await RepoMetadata.getRepoEvents('elyfialkoff/github-metadata');
+  const commits = await RepoMetadata.getCommitsOnOpenPullRequests(eventUrl);
+  res.send(commits)
 });
 
 app.listen(POST, () => {
