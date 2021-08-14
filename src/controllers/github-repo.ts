@@ -1,7 +1,7 @@
 const axios = require('axios').default
 
 export module RepoMetadata {
-  export const getRepoMetadata = async (repoUrl: string) => {
+  export const getRepoMetadata = async (repoUrl: string): Promise<any> => {
     try {
       const response = await axios.get(repoUrl);
       return response.data
